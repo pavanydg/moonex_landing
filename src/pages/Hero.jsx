@@ -25,11 +25,11 @@ const Hero = () => {
         </div>
       </div>
       {/* yellow globe */}
-      <div className="absolute w-20 h-20 md:h-32 md:w-32 top-40 right-16 md:top-80 md:right-8 lg:w-64 lg:h-64 bg-gradient-to-r 2xl:right-64 from-[#FFF6D7] to-p1 rounded-full rotate-45 md:z-10"></div>
+      <div className="absolute w-20 h-20 md:h-32 md:w-32 top-36 right-16 md:top-80 md:right-8 lg:w-64 lg:h-64 bg-gradient-to-r 2xl:right-64 from-[#FFF6D7] to-p1 rounded-full rotate-45 md:z-10"></div>
       {/* solar axis */}
       <div className="absolute top-[150px] left-[-200px] w-[650px] h-[300px] md:w-[780px] md:h-[400px] lg:w-[1200px] lg:h-[520px] border rounded-[50%] rotate-[14deg] border-[#484848] border-opacity-70 z-[-1]"></div>
-      <div className="absolute top-[50px] -left-[300px] md:w-[1100px] md:top-[50px] md:h-[600px] md:-left-[400px] lg:top-[30px] lg:-left-[500px] w-[900px] h-[500px]  lg:w-[1700px] lg:h-[750px] border rounded-[50%] rotate-[14deg] border-[#484848] border-opacity-70 z-[-1]"></div>
-      <div className="absolute top-[-70px] left-[-550px] lg:top-[-90px] lg:left-[-850px] w-[1300px] md:w-[1500px] md:h-[800px] md:left-[-650px] h-[700px]  lg:w-[2400px] lg:h-[1032px] border rounded-[50%] rotate-[14deg] border-[#484848] border-opacity-70"></div>
+      <div className="absolute top-[50px] -left-[300px] md:w-[1100px] md:top-[50px] md:h-[600px] md:-left-[400px] lg:top-[30px] lg:-left-[450px] w-[900px] h-[500px]  lg:w-[1700px] lg:h-[800px] border rounded-[50%] rotate-[14deg] border-[#484848] border-opacity-70 z-[-1]"></div>
+      <div className="absolute top-[-70px] left-[-550px] lg:top-[-140px] lg:left-[-850px] w-[1300px] md:w-[1500px] md:h-[800px] md:left-[-650px] h-[700px]  lg:w-[2400px] lg:h-[1100px] border rounded-[50%] rotate-[14deg] border-[#484848] border-opacity-70"></div>
       {/* stars */}
       <img src={star1} className="absolute top-40 left-10"/>
       <img src={star1} className="right-16 absolute bottom-24 md:right-48"/>
