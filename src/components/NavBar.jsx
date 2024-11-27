@@ -15,7 +15,7 @@ const NavBar = () => {
   ];
 
   return (
-    <div className="absolute top-0 w-full z-10">
+    <div className="absolute top-0 w-full z-20">
       <nav className="flex justify-between items-center md:justify-around mt-6 font-raleway font-extrabold">
         <div className="flex items-center gap-4 ml-5 md:ml-0">
           <img 
@@ -71,12 +71,12 @@ const NavBar = () => {
         onClick={() => setIsOpen(false)}
       >
         <div 
-          className={`absolute top-0 right-0 w-3/4 h-full bg-bg_p1 text-white p-8 transform transition-transform duration-500 ease-in-out
+          className={`absolute top-0 right-0 w-full h-full bg-bg_p1 text-white p-8 transform transition-transform duration-500 ease-in-out
             ${isOpen ? 'translate-x-0' : 'translate-x-full'}`}
           onClick={(e) => e.stopPropagation()}
         >
           
-          <div className="flex justify-end mb-8 mt-5">
+          <div className="flex justify-end mt-12 -mr-2 ">
             <X 
               onClick={() => setIsOpen(false)} 
               className="text-white cursor-pointer -mt-8 transition-transform duration-300 hover:rotate-90 active:scale-90" 

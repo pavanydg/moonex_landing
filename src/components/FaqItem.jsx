@@ -4,8 +4,8 @@ const FaqItem = ({ item }) => {
   const [active, setActive] = useState(false);
 
   return (
-    <div className="font-raleway font-medium text-lg flex flex-col w-full p-4 bg-opacity-[5%] border-b border-gray-800">
-      <div className="flex justify-between items-center">
+    <div className="font-raleway font-medium text-sm md:text-lg flex flex-col w-full p-4 bg-opacity-[5%] border-b border-gray-800">
+      <div className="flex justify-between items-center md:gap-0 gap-2">
         <div className="text-white">{item.question}</div>
         <div
           className="cursor-pointer text-p1 transform transition-transform duration-300 hover:scale-110 active:scale-95"

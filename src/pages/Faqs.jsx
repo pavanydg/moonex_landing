@@ -4,9 +4,9 @@ import FaqItem from "../components/FaqItem";
 
 const Faqs = () => {
   return (
-    <section className="relative container font-fira-code text-white font-extrabold mx-auto  flex flex-col items-center my-40">
+    <section className="relative m-3 font-fira-code text-white font-extrabold flex flex-col items-center my-40">
       <div className="w-full max-w-[997px] h-auto bg-[#F7F9FF] bg-opacity-[2%] shadow-xl rounded-xl p-8">
-        <div className="text-5xl w-full text-center text-p1 border-b border-gray-800 pb-10">FAQs</div>
+        <div className="text-3xl md:text-5xl w-full text-center text-p1 border-b border-gray-800 pb-10">FAQs</div>
         <div className="flex flex-col items-center w-full">
           {faq.map((item, index) => (
             <div className="w-full" key={index}>

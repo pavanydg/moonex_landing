@@ -14,7 +14,7 @@ const AboutUs = () => {
       <table className="table-auto bg-[#FFFFFF] bg-opacity-[2%] rounded-[20px] border border-gray-700 overflow-hidden">
         <thead className="bg-opacity-[5%] border-b border-gray-700">
           <tr className="border-b border-gray-700">
-            <th className="px-6 py-4 text-lg md:text-3xl text-p1 text-center border-r border-gray-700">Comparison</th>
+            <th className="px py-4 text-sm md:text-3xl text-p1 text-center border-r border-gray-700">Comparison</th>
             <th className="px-6 py-4 border-r border-gray-700">
               <div className="flex justify-center items-center space-x-2">
                 <img src={logo} alt="logo" width={24} height={40} />
@@ -23,7 +23,7 @@ const AboutUs = () => {
             </th>
             <th className="px-6 py-4">
               <div className="flex justify-center">
-                <img src={uniswap} alt="uniswap" />
+                <img src={uniswap} alt="uniswap" width={240} height={40}/>
               </div>
             </th>
           </tr>
@@ -37,15 +37,15 @@ const AboutUs = () => {
             "Final point",
           ].map((text, idx) => (
             <tr key={idx} className="border-b border-gray-700">
-              <td className="text-sm md:text-lg px-6 py-4 text-center border-r border-gray-700">{text}</td>
+              <td className="text-xs md:text-lg px-6 py-4 text-center border-r border-gray-700">{text}</td>
               <td className="px-6 py-4 text-center border-r border-gray-700">
                 <div className="flex justify-center">
-                  <img src={tick} alt="tick" />
+                  <img src={tick} alt="tick" className="w-6 md:8"/>
                 </div>
               </td>
               <td className="px-6 py-4 text-center">
                 <div className="flex justify-center">
-                  <img src={cross} alt="cross" />
+                  <img src={cross} alt="cross" className="w-10 md:8"/>
                 </div>
               </td>
             </tr>
